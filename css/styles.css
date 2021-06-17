@@ -1,0 +1,244 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --additional-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* ==================================header================================= */
+.logo {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.logo-accent {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+color: var(--accent-color)
+}
+
+.menu-item .menu-link {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+color: var( --secondary-text-color)
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color)
+}
+.menu-link.current {
+    color: var(--accent-color)
+}
+.menu-link-studio {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+.menu-link-studio:hover, 
+.menu-link-studio:focus {
+    color: var( --secondary-text-color)
+}
+
+.contacts-links {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color)
+}
+.contacts-links:hover,
+.contacts-links:focus {
+    color: var(--accent-color);
+}
+
+/* ==============================MAIN============================== */
+/* ==============================Hero============================== */
+.hero {
+background-color: #2F303A;
+text-align: center;
+}
+.hero-title {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--additional-text-color);
+}
+
+.modal-btn {
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1,87;
+letter-spacing: 0.06em;
+color: var(--additional-text-color);
+background-color: var(--accent-color);
+cursor: pointer;
+}
+
+/* ===========================Strengths=================================== */
+.strengths-list .strengths-title {
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var( --secondary-text-color)
+}
+
+.strenghts-description {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1,7;
+letter-spacing: 0.03em;
+color: var(--primary-text-color)
+}
+
+/* ===========================Works=================================== */
+.work-section .title {
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var( --secondary-text-color)
+}
+
+/* ===========================Our team=================================== */
+.team-section {
+    background-color: #E5E5E5;
+}
+.team-section .title {
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var( --secondary-text-color)
+}
+.team-title {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var( --secondary-text-color)
+}
+.team-description {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1,18;   
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color)
+}
+/* ===========================footer=================================== */
+.footer {
+background-color: #2F303A;
+}
+.logo-footer {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+color: var(--additional-text-color);
+}
+.address {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1,7;
+letter-spacing: 0.03em;
+color: var(--additional-text-color);
+}
+.footer-contacts .footer-links {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1,7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6)
+}
+.footer-links:hover,
+.footer-links:focus {
+ color: var(--accent-color);
+}
+
+/* =================================PORTFOLIO===================================== */
+
+.works-btn {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,6;
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+color: var( --secondary-text-color)
+}
+.works-btn:hover,
+.works-btn:focus {
+  background-color: var(--accent-color);  
+  color: var(--additional-text-color);
+}
+
+
+.projects-title {
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var( --secondary-text-color)
+}
+.projects-description {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1,87;
+letter-spacing: 0.03em; 
+color: var(--primary-text-color)
+}
+
+.works-btn.current {
+    background-color: var(--accent-color);
+    color: var(--additional-text-color);
+}
