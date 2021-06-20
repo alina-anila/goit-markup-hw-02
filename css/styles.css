@@ -23,7 +23,7 @@ font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 1,19;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #000000;
 }
@@ -33,7 +33,7 @@ font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 1,19;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--accent-color)
 }
@@ -42,7 +42,7 @@ color: var(--accent-color)
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var( --secondary-text-color)
 }
@@ -57,7 +57,7 @@ color: var( --secondary-text-color)
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--accent-color);
 }
@@ -70,7 +70,7 @@ color: var(--accent-color);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color)
 }
@@ -89,7 +89,7 @@ text-align: center;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 1,36;
+line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--additional-text-color);
@@ -99,7 +99,7 @@ color: var(--additional-text-color);
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 1,87;
+line-height: 1.87;
 letter-spacing: 0.06em;
 color: var(--additional-text-color);
 background-color: var(--accent-color);
@@ -111,7 +111,7 @@ cursor: pointer;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var( --secondary-text-color)
@@ -121,7 +121,7 @@ color: var( --secondary-text-color)
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 1,7;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--primary-text-color)
 }
@@ -131,7 +131,7 @@ color: var(--primary-text-color)
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 1,16;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var( --secondary-text-color)
@@ -145,7 +145,7 @@ color: var( --secondary-text-color)
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 1,16;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var( --secondary-text-color)
@@ -154,7 +154,7 @@ color: var( --secondary-text-color)
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,18;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var( --secondary-text-color)
@@ -163,7 +163,7 @@ color: var( --secondary-text-color)
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 1,18;   
+line-height: 1.18;   
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color)
@@ -177,7 +177,7 @@ font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 1,19;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--additional-text-color);
 }
@@ -193,7 +193,7 @@ color: var(--additional-text-color);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 1,7;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6)
 }
@@ -205,10 +205,14 @@ color: rgba(255, 255, 255, 0.6)
 /* =================================PORTFOLIO===================================== */
 
 .works-btn {
+height: 38px;
+width: 128px;
+left: 576px;
+top: 174px;  
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,6;
+line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
@@ -233,7 +237,7 @@ color: var( --secondary-text-color)
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 1,87;
+line-height: 1.87;
 letter-spacing: 0.03em; 
 color: var(--primary-text-color)
 }
